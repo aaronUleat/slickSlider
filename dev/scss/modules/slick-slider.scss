@@ -1,0 +1,30 @@
+
+section.slick-slider-main {
+	max-width: 1200px;
+	margin: 0 auto;
+	
+
+		.slide {
+			height: 100vh;
+			font-size: 5em;
+			text-align: center;
+			background-size: cover;
+
+			img {
+				max-width: 100%;
+			}
+		}
+		
+
+}
+
+.slide:nth-child(1) {
+	background: grey;
+}
+
+.slide:nth-child(2) {
+	background: aquamarine;
+}
+.slide:nth-child(3) {
+	background: yellow;
+}

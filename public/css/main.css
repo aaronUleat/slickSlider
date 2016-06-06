@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100italic,300,500,700|Roboto+Condensed:400,300,700|Source+Sans+Pro:400,300,700,900|Raleway:400,100,300,700,900,800);
+body {
+  font-family: 'Roboto';
+}
+
+body {
+  font-family: 'Roboto';
+}
+
+section.slick-slider-main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section.slick-slider-main .slide {
+  height: 100vh;
+  font-size: 5em;
+  text-align: center;
+  background-size: cover;
+}
+
+section.slick-slider-main .slide img {
+  max-width: 100%;
+}
+
+.slide:nth-child(1) {
+  background: grey;
+}
+
+.slide:nth-child(2) {
+  background: aquamarine;
+}
+
+.slide:nth-child(3) {
+  background: yellow;
+}
+
+/* modules */
